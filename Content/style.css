@@ -1,5 +1,11 @@
 @import url(font.css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic);
-
+/*!
+ *   AdminJuan
+!*/
+/*
+ * Core: General Layout Style
+ * -------------------------
+ */
 html,
 body {
   min-height: 100%;

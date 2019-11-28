@@ -16,7 +16,6 @@ namespace SignalRChat
         public DataSet ds = new DataSet();
         public SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["conStr"].ToString());
 
-
         public bool IsExist(string Query)
         {
             bool check = false;
@@ -67,9 +66,9 @@ namespace SignalRChat
             }
 
             return RetVal;
-        }
 
-       
+
+        }
 
     }
 }
